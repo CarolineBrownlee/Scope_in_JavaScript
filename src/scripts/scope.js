@@ -1,0 +1,1 @@
+console.log("Scope throws me for a loop, but not inside of it because I don't have access to enter the curly braces.")
