@@ -56,10 +56,11 @@ for (let i = 0; i < locations.length; i++) {
     if (currentLocation[0] > 2) {
         invalidLocation === true
         invalidCounter++
+        console.log("This location is invalid.")
     }
-    if (invalidLocation) {
-        console.log("This location is invalid")
-    }
+    // if (invalidLocation === true) {
+    //     console.log("This location is invalid")
+    // }
 }
 
 /*
